@@ -19,7 +19,7 @@ Python 3.10
 
 **Description**
 
-NETMATICS is a math quiz game for primary school students. It asks math questions at three levels “Easy” “Medium” “Hard”. Kids can answer questions, get feedback, and see their scores. 
+NETMATICS is a math quiz game for intermediate school students. It asks math questions at three levels “Easy” “Medium” “Hard”. Kids can answer questions, get feedback, and see their scores. 
 
 
 **How to Use**
