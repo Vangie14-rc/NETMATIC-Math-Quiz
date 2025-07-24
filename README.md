@@ -13,6 +13,7 @@ May 15, 2025
 1.1.3
 
 **Language**
+
 Python 3.10
 
 
@@ -52,7 +53,7 @@ NETMATICS is a math quiz game for primary school students. It asks math question
 •	Python 3.10 installed on your computer.
 
 •	Pillow library installed (for images). Install by running: 
-pip install pillow
+                                                             pip install pillow
 
 •	All images’ files (like court.png, fig1.png, etc) saved in the same folders as the program.
 
@@ -67,7 +68,7 @@ pip install pillow
 •	Open your computer’s Command Prompt (Windows)
 
 •	Type this and press Enter:
-   pip install Pillow
+                             pip install Pillow
 
 **3. Put your Files Together**
 •	Make sure your Python file (Version 1.1.3.py) and all your images (like court.png, fig1.png, etc.) are saved in the same folder.
