@@ -84,6 +84,7 @@ NETMATICS is a math quiz game for primary school students. It asks math question
 
 
 **5.  Run the Game**
+
 •	Then type or copy and paste it:
 
                                                                    python "Version 1.1.3.py"
