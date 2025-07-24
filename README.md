@@ -1,6 +1,6 @@
 **NETMATICS Math Quiz README**
 
-**Author **
+**Author**
 Vangie Coloma
 
 **Date**
