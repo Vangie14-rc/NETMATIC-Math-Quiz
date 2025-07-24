@@ -110,8 +110,12 @@ NETMATICS is a math quiz game for primary school students. It asks math question
 
 **Notes**
 •	Please ensure all the image files (like court.png, fig.png, etc.) are saved in the same folders as the program, or the images will not show correctly.
+
 •	You can restart the quiz or exit ot any time using the buttons provided.
+
 •	For Easy level questions, the game only accepts valid numbers as answers, so please enter numbers only. 
+
 •	Make sure you have Python 3.10 and the Pillow library installed before running the program. 
+
 •	If you want to add more questions or need any help with the quiz, feel free to email me at 24553@student.lynfield.school.nz I’m happy to assist!
 
