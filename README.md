@@ -60,8 +60,8 @@ NETMATICS is a math quiz game for primary school students. It asks math question
 **How to Run**
 
 **1. Install Python**
-
 •	Go to this website: https://www.python.org/downloads/
+
 •	Download and install Python 3.10
 
 **2. Install Pillow**
@@ -75,7 +75,7 @@ NETMATICS is a math quiz game for primary school students. It asks math question
 
 **4. Open the Folder**
 •	In command Prompt, type or copy and paste it:
-cd "C:\Users\vangi\OneDrive - Lynfield College\3PAD\VangieColoma_Checkpoint 2\Codes"
+                                                cd "C:\Users\vangi\OneDrive - Lynfield College\3PAD\VangieColoma_Checkpoint 2\Codes"
 
 
 **5.  Run the Game**
