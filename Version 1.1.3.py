@@ -199,60 +199,11 @@ def open_medium_quiz():
     
     # Submit button to check the user's answer
     tk.Button(medium_win, text="Submit", font=("Arial", 16), command=check_answer).pack(pady=10)
+  
     # Show the first question when the medium quiz window opens
     show_question()
     # Show the score screen after quiz ends
-def show_score_window():
-    score_win = tk.Toplevel(app)
-    score_win.title("Final Score")
-    score_win.geometry("1200x650")
-    score_win.resizable(False,False)
 
-    # Background image
-    bg_score_image = tk.PhotoImage(file="court.png")
-    bg_label_score = tk.Label(score_win, image=bg_score_image)
-    bg_label_score.image = bg_score_image
-    bg_label_score.place(x=0, y=0, relwidth=1, relheight=1)
-    
-    user_name = name_entry.get() or "Player"
-
-    #Name and score display  
-    name_label = tk.Label(score_win, text=f"{user_name}", font=("Adamina", 18), fg="#FF5349", bg="black")
-    name_label.place(relx=0.5, rely=0.50, anchor="center")
-
-    #Score Display
-    score_display = tk.Label(score_win, text=f"Your Score: {score} / {len(easy_questions)}", font=("Adamina", 14), fg="white", bg="black")
-    score_display.place(relx=0.5, rely=0.55, anchor="center")
-    
-    #Message Display
-    msg_label = tk.Label(score_win, text="NICE  WORK!", font=("Nico Moji", 60), fg="white", bg="black")
-    msg_label.place(relx=0.5, rely=0.4, anchor="center") 
-
-
-    def medium_restart_quiz():
-        score_win.destroy()
-        open_medium_quiz()
-
-    #Continue to next level
-    def continue_quiz():
-        score_win.destroy()
-        open_difficulty_window()
-        
-    #Exit the progam
-    def exit_quiz():
-        app.destroy()
-
-    # Buttons for score window
-
-    m_restart_btn = tk.Button(score_win, text="RESTART", font=("Nico Moji", 18), bg="black", fg="white", command=medium_restart_quiz)
-    m_restart_btn.place(relx=0.28, rely=0.60, relwidth=0.13, relheight=0.09)
-    
-    continue_btn = tk.Button(score_win, text="CONTINUE", font=("Nico Moji", 18),  bg="black", fg="white", command=continue_quiz)
-    continue_btn.place(relx=0.59, rely=0.60, relwidth=0.13, relheight=0.09)
-
-    exit_btn = tk.Button(score_win, text="EXIT", font=("Nico Moji", 18), fg="white", bg="black", command=exit_quiz)
-    exit_btn.place(relx=0.01, rely=0.88, relwidth=0.10, relheight=0.09)
-    
 #Open the easy quiz window
 def open_easy_quiz():
     global score
